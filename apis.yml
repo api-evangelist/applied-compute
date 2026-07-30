@@ -1,9 +1,30 @@
 aid: applied-compute
 name: Applied Compute
-description: 'Applied Compute is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Applied Compute is a San Francisco AI company founded in 2025 by former OpenAI
+  researchers, building "Specific Intelligence" for the enterprise. It operates a
+  cloud platform for training, inference, and continuous improvement of custom,
+  open AI models and long-horizon, tool-using agents grounded in a company's own
+  proprietary data. Rather than selling a generic model, Applied Compute embeds
+  engineers with customer teams to fine-tune models, mine production data, run
+  online/reinforcement learning, and deploy autonomous agents that operate inside
+  the customer's environment with observability over rollouts. The company emerged
+  from stealth in October 2025 and is backed by Kleiner Perkins, Benchmark, Sequoia
+  Capital, Lux Capital, Greenoaks, Neo, Elad Gil, and others at a reported ~$1.3B
+  valuation. Named customers include DoorDash, Cognition, Harvey, and Mercor.
 url: https://raw.githubusercontent.com/api-evangelist/applied-compute/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mintcdn.com/appliedcompute/pJSHZ0UHJbHRexgo/logo/light.svg
 x-type: company
 x-source: kleiner-perkins-portfolio
 x-tier: stub
@@ -13,10 +34,46 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Machine Learning
+- LLM
+- Model Training
+- Inference
+- AI Agents
+- Enterprise AI
+- Fine-Tuning
+- Reinforcement Learning
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/applied-compute-domain-security.yml
+- type: Website
+  url: https://www.appliedcompute.com
+- type: DeveloperPortal
+  url: https://docs.appliedcompute.com
+- type: Documentation
+  url: https://docs.appliedcompute.com
+- type: Blog
+  url: https://www.appliedcompute.com/blog
+- type: GitHubOrganization
+  url: https://github.com/Applied-Compute
+- type: TermsOfService
+  url: https://www.appliedcompute.com/legals/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.appliedcompute.com/legals/privacy-policy
+- type: Careers
+  url: https://jobs.ashbyhq.com/Applied%20Compute
+- type: LinkedIn
+  url: https://www.linkedin.com/company/appliedcompute
+- type: Twitter
+  url: https://x.com/appliedcompute
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
