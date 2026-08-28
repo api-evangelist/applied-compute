@@ -13,6 +13,17 @@ description: >-
   Capital, Lux Capital, Greenoaks, Neo, Elad Gil, and others at a reported ~$1.3B
   valuation. Named customers include DoorDash, Cognition, Harvey, and Mercor.
 url: https://raw.githubusercontent.com/api-evangelist/applied-compute/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
